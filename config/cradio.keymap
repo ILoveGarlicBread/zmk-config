@@ -59,7 +59,7 @@
             &kp PIPE   &kp LBKT   &kp LBRC   &kp LPAR   &kp TILDE      &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ \        │  ]       │  }       │  )       │  `       │   │  ;       │  !       │  +       │  =       │          │
-            &kp BSLH   &kp RBKT   &kp RBRC   &kp RPAR   &kp GRAVE      &kp SEMI   &kp EXCL   &kp PLUS   &EQUAL     &trans
+            &kp BSLH   &kp RBKT   &kp RBRC   &kp RPAR   &kp GRAVE      &kp SEMI   &kp EXCL   &kp PLUS   &kp EQUAL     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 │          │          │   │CTRL+BSPC │  ENTER   │
                                              &trans     &trans         &kp LC(BSPC) &kp ENTER
