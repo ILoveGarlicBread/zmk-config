@@ -13,7 +13,6 @@
 
 / {
     behaviors {
-        / {
           conditional_layers {
               compatible = "zmk,conditional-layers";
               tri_layer {
@@ -21,7 +20,6 @@
                   then-layer = <3>;
               };
           };
-        };
     };
 
     keymap {
