@@ -131,25 +131,11 @@
             label = "CAN";
         };
 
-        ch_s_the: The {
+        ch_shiftthe: The {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp H &kp E>;
             label = "THE";
-        };
-
-        ch_s_you: You {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(Y) &kp O &kp U>;
-            label = "YOU";
-        };
-
-        ch_s_can: Can {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp A &kp N>;
-            label = "CAN";
         };
     };
 
