@@ -88,19 +88,19 @@
         };
 
         S_The {
-            bindings = <&ch_The>;
+            bindings = <&ch_S_The>;
             key-positions = <32 17 13>;
             layers = <0>;
         };
 
         S_You {
-            bindings = <&ch_You>;
+            bindings = <&ch_S_You>;
             key-positions = <32 7 19>;
             layers = <0>;
         };
 
         S_Can {
-            bindings = <&ch_Can>;
+            bindings = <&ch_S_Can>;
             key-positions = <32 16 22>;
             layers = <0>;
         };
@@ -149,21 +149,21 @@
             label = "CAN";
         };
 
-        ch_The: The {
+        ch_S_The: The {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp H &kp E>;
             label = "THE";
         };
 
-        ch_You: You {
+        ch_S_You: You {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(Y) &kp O &kp U>;
             label = "YOU";
         };
 
-        ch_Can: Can {
+        ch_S_Can: Can {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp N>;
