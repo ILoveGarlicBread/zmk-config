@@ -137,6 +137,20 @@
             bindings = <&kp LS(T) &kp H &kp E>;
             label = "THE";
         };
+
+        ch_s_you: ch_s_you {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(Y) &kp O &kp U>;
+            label = "CH_S_YOU";
+        };
+
+        ch_s_can: ch_s_can {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp A &kp N>;
+            label = "CH_S_CAN";
+        };
     };
 
     keymap {
