@@ -48,12 +48,43 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <28 27>;
+            key-positions = <33 32>;
         };
 
         the {
             bindings = <&ch_the>;
-            key-positions = <13 15 17>;
+            key-positions = <13 17>;
+            layers = <0>;
+        };
+
+        and {
+            bindings = <&ch_and>;
+            key-positions = <10 14>;
+            layers = <0>;
+        };
+
+        can {
+            bindings = <&ch_can>;
+            key-positions = <22 16>;
+            layers = <0>;
+        };
+
+        you {
+            bindings = <&ch_you>;
+            key-positions = <19 7>;
+            layers = <0>;
+        };
+
+        to {
+            bindings = <&ch_to 0>;
+            key-positions = <13 19>;
+            layers = <0>;
+        };
+
+        of {
+            bindings = <&ch_of>;
+            key-positions = <19 2>;
+            layers = <0>;
         };
     };
 
@@ -63,6 +94,41 @@
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E>;
             label = "CH_THE";
+        };
+
+        ch_you: you {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp O &kp U>;
+            label = "YOU";
+        };
+
+        ch_to: to {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp O>;
+            label = "TO";
+        };
+
+        ch_and: and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp A &kp N>;
+            label = "AND";
+        };
+
+        ch_of: of {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp F>;
+            label = "OF";
+        };
+
+        ch_can: can {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp A &kp N>;
+            label = "CAN";
         };
     };
 
