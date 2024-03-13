@@ -92,6 +92,18 @@
             key-positions = <32 7 19>;
             layers = <0>;
         };
+
+        s_can {
+            bindings = <&ch_s_can>;
+            key-positions = <22 32 16>;
+            layers = <0>;
+        };
+
+        s_the {
+            bindings = <&ch_s_the>;
+            key-positions = <13 32 17>;
+            layers = <0>;
+        };
     };
 
     macros {
