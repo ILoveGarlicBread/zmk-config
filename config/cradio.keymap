@@ -75,18 +75,6 @@
             layers = <0>;
         };
 
-        to {
-            bindings = <&ch_to 0>;
-            key-positions = <13 19>;
-            layers = <0>;
-        };
-
-        of {
-            bindings = <&ch_of>;
-            key-positions = <19 2>;
-            layers = <0>;
-        };
-
         s_you {
             bindings = <&ch_s_you>;
             key-positions = <32 7 19>;
@@ -102,6 +90,36 @@
         s_the {
             bindings = <&ch_s_the>;
             key-positions = <13 32 17>;
+            layers = <0>;
+        };
+
+        ch_cant {
+            bindings = <&ch_cant>;
+            key-positions = <22 16 13>;
+            layers = <0>;
+        };
+
+        ch_ing {
+            bindings = <&ch_ing>;
+            key-positions = <16 4>;
+            layers = <0>;
+        };
+
+        ch_ve {
+            bindings = <&ch_ve>;
+            key-positions = <23 9>;
+            layers = <0>;
+        };
+
+        ch_re {
+            bindings = <&ch_re>;
+            key-positions = <9 11>;
+            layers = <0>;
+        };
+
+        ch_ll {
+            bindings = <&ch_ll>;
+            key-positions = <9 6>;
             layers = <0>;
         };
     };
@@ -121,25 +139,11 @@
             label = "YOU";
         };
 
-        ch_to: to {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp O>;
-            label = "TO";
-        };
-
         ch_and: and {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp A &kp N &kp D>;
             label = "AND";
-        };
-
-        ch_of: of {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp O &kp F>;
-            label = "OF";
         };
 
         ch_can: can {
@@ -168,6 +172,41 @@
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp N>;
             label = "CH_S_CAN";
+        };
+
+        ch_cant: ck_cant {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&ch_can &kp SQT &kp T>;
+            label = "CK_CANT";
+        };
+
+        ch_ing: ch_ing {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp N &kp G>;
+            label = "CH_ING";
+        };
+
+        ch_ve: ch_ve {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SQT &kp V &kp E>;
+            label = "CH_VE";
+        };
+
+        ch_re: ch_re {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SQT &kp R &kp E>;
+            label = "CH_RE";
+        };
+
+        ch_ll: ch_ll {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SQT &kp L &kp L>;
+            label = "CH_LL";
         };
     };
 
