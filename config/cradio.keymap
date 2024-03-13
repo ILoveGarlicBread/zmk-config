@@ -50,6 +50,21 @@
             bindings = <&kp ENTER>;
             key-positions = <28 27>;
         };
+
+        the {
+            bindings = <&the>;
+            key-positions = <13 15 17>;
+        };
+    };
+
+    macros {
+        the: the {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&the>, <&macro_press>, <&kp T &kp H &kp E>;
+
+            label = "THE";
+        };
     };
 
     keymap {
