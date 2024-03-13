@@ -86,6 +86,24 @@
             key-positions = <19 2>;
             layers = <0>;
         };
+
+        The {
+            bindings = <&ch_The>;
+            key-positions = <32 17 13>;
+            layers = <0>;
+        };
+
+        You {
+            bindings = <&ch_You>;
+            key-positions = <32 7 19>;
+            layers = <0>;
+        };
+
+        Can {
+            bindings = <&ch_Can>;
+            key-positions = <32 16 22>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -128,6 +146,27 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp C &kp A &kp N>;
+            label = "CAN";
+        };
+
+        ch_The: The {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp H &kp E>;
+            label = "THE";
+        };
+
+        ch_You: You {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(Y) &kp O &kp U>;
+            label = "YOU";
+        };
+
+        ch_Can: Can {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp A &kp N>;
             label = "CAN";
         };
     };
