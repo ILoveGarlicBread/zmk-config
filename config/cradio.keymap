@@ -131,7 +131,7 @@
             label = "CAN";
         };
 
-        ch_shiftthe: The {
+        ch_s_the: The {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp H &kp E>;
