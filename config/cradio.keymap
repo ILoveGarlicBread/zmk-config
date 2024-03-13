@@ -87,19 +87,19 @@
             layers = <0>;
         };
 
-        The {
+        S_The {
             bindings = <&ch_The>;
             key-positions = <32 17 13>;
             layers = <0>;
         };
 
-        You {
+        S_You {
             bindings = <&ch_You>;
             key-positions = <32 7 19>;
             layers = <0>;
         };
 
-        Can {
+        S_Can {
             bindings = <&ch_Can>;
             key-positions = <32 16 22>;
             layers = <0>;
