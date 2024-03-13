@@ -52,18 +52,17 @@
         };
 
         the {
-            bindings = <&the>;
+            bindings = <&ch_the>;
             key-positions = <13 15 17>;
         };
     };
 
     macros {
-        the: the {
+        ch_the: ch_the {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&the>, <&macro_press>, <&kp T &kp H &kp E>;
-
-            label = "THE";
+            bindings = <&kp T &kp H &kp E>;
+            label = "CH_THE";
         };
     };
 
