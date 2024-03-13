@@ -113,7 +113,7 @@
         ch_and: and {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp A &kp N>;
+            bindings = <&kp A &kp N &kp D>;
             label = "AND";
         };
 
