@@ -75,24 +75,6 @@
             layers = <0>;
         };
 
-        s_you {
-            bindings = <&ch_s_you>;
-            key-positions = <32 7 19>;
-            layers = <0>;
-        };
-
-        s_can {
-            bindings = <&ch_s_can>;
-            key-positions = <22 32 16>;
-            layers = <0>;
-        };
-
-        s_the {
-            bindings = <&ch_s_the>;
-            key-positions = <13 32 17>;
-            layers = <0>;
-        };
-
         ch_cant {
             bindings = <&ch_cant>;
             key-positions = <22 16 13>;
@@ -169,27 +151,6 @@
             #binding-cells = <0>;
             bindings = <&kp C &kp A &kp N>;
             label = "CAN";
-        };
-
-        ch_s_the: The {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(T) &kp H &kp E>;
-            label = "THE";
-        };
-
-        ch_s_you: ch_s_you {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(Y) &kp O &kp U>;
-            label = "CH_S_YOU";
-        };
-
-        ch_s_can: ch_s_can {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp A &kp N>;
-            label = "CH_S_CAN";
         };
 
         ch_cant: ck_cant {
