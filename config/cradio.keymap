@@ -122,6 +122,24 @@
             key-positions = <9 6>;
             layers = <0>;
         };
+
+        ch_that {
+            bindings = <&ch_that>;
+            key-positions = <10 13 15>;
+            layers = <0>;
+        };
+
+        ch_have {
+            bindings = <&ch_have>;
+            key-positions = <10 23>;
+            layers = <0>;
+        };
+
+        ch_for {
+            bindings = <&ch_for>;
+            key-positions = <2 11>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -207,6 +225,27 @@
             #binding-cells = <0>;
             bindings = <&kp SQT &kp L &kp L>;
             label = "CH_LL";
+        };
+
+        ch_that: ch_that {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp A &kp T>;
+            label = "CH_THAT";
+        };
+
+        ch_have: ch_have {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp A &kp V &kp E>;
+            label = "CH_HAVE";
+        };
+
+        ch_for: ch_for {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F &kp O &kp R>;
+            label = "CH_FOR";
         };
     };
 
