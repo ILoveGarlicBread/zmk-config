@@ -59,72 +59,84 @@
             bindings = <&ch_the>;
             key-positions = <13 17>;
             layers = <0>;
+            slow-release;
         };
 
         and {
             bindings = <&ch_and>;
             key-positions = <10 14>;
             layers = <0>;
+            slow-release;
         };
 
         can {
             bindings = <&ch_can>;
             key-positions = <22 16>;
             layers = <0>;
+            slow-release;
         };
 
         you {
             bindings = <&ch_you>;
             key-positions = <19 7>;
             layers = <0>;
+            slow-release;
         };
 
         ch_cant {
             bindings = <&ch_cant>;
             key-positions = <22 16 13>;
             layers = <0>;
+            slow-release;
         };
 
         ch_ing {
             bindings = <&ch_ing>;
             key-positions = <16 4>;
             layers = <0>;
+            slow-release;
         };
 
         ch_ve {
             bindings = <&ch_ve>;
             key-positions = <23 9>;
             layers = <0>;
+            slow-release;
         };
 
         ch_re {
             bindings = <&ch_re>;
             key-positions = <9 11>;
             layers = <0>;
+            slow-release;
         };
 
         ch_ll {
             bindings = <&ch_ll>;
             key-positions = <9 6>;
             layers = <0>;
+            slow-release;
         };
 
         ch_that {
             bindings = <&ch_that>;
             key-positions = <10 13 15>;
             layers = <0>;
+            slow-release;
         };
 
         ch_have {
             bindings = <&ch_have>;
             key-positions = <10 23>;
             layers = <0>;
+            slow-release;
         };
 
         ch_for {
             bindings = <&ch_for>;
             key-positions = <2 11>;
             layers = <0>;
+            slow-release;
         };
 
         steno_tog {
