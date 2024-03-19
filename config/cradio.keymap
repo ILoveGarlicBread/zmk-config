@@ -60,6 +60,18 @@
             key-positions = <32 33>;
             layers = <0 2 1 3 4 5>;
         };
+
+        Exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 11>;
+            layers = <0>;
+        };
+
+        doublequote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <8 18>;
+            layers = <0>;
+        };
     };
 
     keymap {
