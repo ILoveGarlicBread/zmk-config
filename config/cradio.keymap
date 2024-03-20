@@ -50,7 +50,7 @@
         };
 
         steno_tog {
-            bindings = <&tog 6>;
+            bindings = <&plovertoggle>;
             key-positions = <22 23 26 27>;
             layers = <0 6>;
         };
@@ -71,6 +71,15 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <8 18>;
             layers = <0>;
+        };
+    };
+
+    macros {
+        plovertoggle: plovertoggle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 6 &kp E &kp R &kp F &kp V &kp I &kp K>;
+            label = "PLOVERTOGGLE";
         };
     };
 
