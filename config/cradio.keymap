@@ -80,7 +80,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&tog 6 &kp E &kp R &kp F &kp V &kp I &kp K>,
+                <&tog 6 &sk E &sk R &sk F &sk V &sk I &kp K>,
                 <&macro_release>;
 
             label = "PLOVERTOGGLE";
