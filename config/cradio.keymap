@@ -85,10 +85,10 @@
 
         num_layer {
             bindings = <
-&kp LESS_THAN  &kp PLUS      &kp HASH      &kp DOLLAR     &kp PERCENT    &kp CARET          &kp AMPERSAND    &kp ASTERISK  &kp MINUS  &kp GREATER_THAN
-&kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5         &kp NUMBER_6       &kp N7           &kp N8        &kp N9     &kp N0
-&trans         &kp DOT       &kp COMMA     &kp SEMICOLON  &kp EQUAL      &kp DOUBLE_QUOTES  &kp EXCLAMATION  &trans        &trans     &trans
-                                           &trans         &kp ENTER      &tog 4             &trans
+&kp LESS_THAN  &kp PLUS      &kp HASH      &kp DOLLAR         &kp PERCENT    &kp CARET     &kp AMPERSAND    &kp ASTERISK  &kp MINUS  &kp GREATER_THAN
+&kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp N5         &kp NUMBER_6  &kp N7           &kp N8        &kp N9     &kp N0
+&trans         &kp DOT       &kp COMMA     &kp DOUBLE_QUOTES  &kp EQUAL      &kp SEMI      &kp EXCLAMATION  &trans        &trans     &trans
+                                           &trans             &kp ENTER      &tog 4        &trans
             >;
         };
 
