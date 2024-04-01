@@ -16,6 +16,8 @@
 
 &sk { quick-release; };
 
+&mt { flavor = "tap-preferred"; };
+
 / {
     behaviors {
         conditional_layers {
