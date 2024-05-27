@@ -64,7 +64,7 @@
         };
 
         shutdown {
-            bindings = <&tog 7>;
+            bindings = <&soft_off>;
             key-positions = <12 13 7 15>;
         };
     };
