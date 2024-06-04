@@ -14,7 +14,10 @@
 #define GAME0 4
 #define GAME1 5
 
-&sk { quick-release; };
+&sk {
+    quick-release;
+    lazy;
+};
 
 &mt { flavor = "tap-preferred"; };
 
