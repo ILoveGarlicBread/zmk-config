@@ -19,7 +19,10 @@
     lazy;
 };
 
-&mt { flavor = "tap-preferred"; };
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <300>;
+};
 
 / {
     behaviors {
