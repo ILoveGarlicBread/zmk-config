@@ -59,7 +59,7 @@
 
         steno_tog {
             bindings = <&tog 7>;
-            key-positions = <22 23 26 27>;
+            key-positions = <2 3 7 6>;
             layers = <0 7>;
         };
 
