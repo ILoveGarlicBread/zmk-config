@@ -73,11 +73,6 @@
             key-positions = <11 12>;
             layers = <0 2 1>;
         };
-
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <6 7>;
-        };
     };
 
     macros {
