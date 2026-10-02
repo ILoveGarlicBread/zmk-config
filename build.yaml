@@ -18,10 +18,10 @@
 #
 ---
 include:
-  - board: nice_nano_v2_zmk
+  - board: nice_nano@2.0.0//zmk
     shield: cradio_left
     snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2_zmk
+  - board: nice_nano@2.0.0//zmk
     shield: cradio_right
-  - board: nice_nano_v2_zmk
+  - board: nice_nano@2.0.0//zmk
     shield: settings_reset
