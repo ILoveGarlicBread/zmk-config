@@ -89,13 +89,6 @@
             bindings = <&kp PERIOD &kp PERIOD &kp PERIOD>;
             label = "TRIPLE_PERIOD";
         };
-
-        insertpic: insertpic {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(LA(X))>;
-            label = "INSERTPIC";
-        };
     };
 
     keymap {
@@ -112,7 +105,7 @@
 
         symnav_layer {
             bindings = <
-&kp CAPS        &kp LBKT        &kp LEFT_BRACE   &kp LEFT_PARENTHESIS  &none               &kp DELETE      &kp PLUS   &kp EQUAL         &kp MINUS          &kp UNDER
+&kp CAPS        &kp LBKT        &kp LEFT_BRACE   &kp LEFT_PARENTHESIS  &kp LC(LA(X))       &kp DELETE      &kp PLUS   &kp EQUAL         &kp MINUS          &kp UNDER
 &mt LCTRL PIPE  &kp RBKT        &kp RIGHT_BRACE  &kp RPAR              &kp TILDE           &kp LEFT        &kp DOWN   &kp UP_ARROW      &kp RIGHT          &mt LCTRL COLON
 &kp BSLH        &kp C_PREVIOUS  &kp K_MUTE       &kp C_NEXT            &kp GRAVE           &triple_period  &kp EXCL   &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
                                                  &trans                &kp C_PLAY_PAUSE    &kp BACKSPACE   &kp ENTER
